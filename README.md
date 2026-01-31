@@ -25,3 +25,21 @@ student-api/
 ## ▶️ Running the API
 
 ### 1. Install dependencies
+
+### 2. Run the server
+
+### 3. Test endpoints using Postman or browser
+- GET `/students`
+- GET `/students/1`
+- POST `/students`
+- PUT `/students/1`
+- DELETE `/students/1`
+
+## 🧠 How It Works
+- The API uses an in‑memory list to simulate a database  
+- Each endpoint performs CRUD operations on student records  
+- JSON is used for all input and output  
+- Flask handles routing and HTTP methods  
+
+## 📄 License
+Open‑source and free to use.
